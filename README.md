@@ -11,14 +11,17 @@ Harald先生とMatthias先生により提唱された、2つのMOSFETで作成�
 
 ## 投稿動機
 2024年の[Chipathon2024](https://ishi-kai.org/information/chipathon/2024/08/31/Entry-SSCS-OSE-CHIPATHON2024.html)のお題が「Fifty-Niftyの回路を自動生成する」というものであり、私もLNAで参戦予定であった。  
-しかし、諸事情により、ギブアップすることとなったため、本ミニマルファブコンテスト2024で供養することにしたのである。  
+しかし、諸事情により、ギブアップすることとなったため、本ミニマルファブコンテスト2024で供養することにした。  
 * [Chipathon2024参戦敗北記](https://github.com/noritsuna/AdventCalendar2024/blob/main/OSSSilicon_Day_03.md)
+
+### 投稿意義
+Fifty-Niftyは基本的には「2つのMOSFET」しか使わないため、初心者でもお手軽に参戦できる。このFifty-Nifty系投稿が今後の***ミニマルファブコンテスト第一部の初心者向け定番***としての先鞭となれば幸いである。  
 
 * ![Fifty-Nifty_LNA](images/fifty-nifty_LNA.png)
 * ![Chipathonタイトル](images/chipathon_title.PNG)
 * ![Chipathon回路](images/chipathon_design.PNG)
 * ![Chipathonシミュレーション結果](images/chipathon_sim.PNG)
-* [エントリーシート](docs/chipathon2024_entry.pdf)
+* [Chipathonエントリーシート](docs/chipathon2024_entry.pdf)
 
 
 ## 提出用ファイル
