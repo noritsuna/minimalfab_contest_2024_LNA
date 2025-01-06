@@ -52,7 +52,7 @@ Harald先生とMatthias先生により提唱された、2つのMOSFETで作成�
 
 そこで、LVS用に回路図に手を加えた。  
 共通のNETを分離した回路図とレイアウトを作成することとした。  
-* ![LVS用の回路](images/LVS_xschem.png)
+* ![回路図](images/xschem.png)
 * ![LVS用の回路と説明](images/LVS_xschem_ex.png)
 * ![LVS用のレイアウトと説明](images/LVS_klayout_ex1.png)
 * ![LVS用のレイアウト](images/LVS_klayout.png)
