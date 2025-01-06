@@ -70,6 +70,12 @@ save all
 
 ac dec 20 1e6 1e8
 plot vdb(vout)
+noise v(vout) vin dec 20 1e6 1e8
+run
+setplot noise1
+*write lna_tb.raw
+*plot onoise_spectrum loglog
+plot vdb(onoise_spectrum) vdb(inoise_spectrum)
 .endc"}
 C {devices/gnd.sym} -600 470 0 0 {name=l3 lab=GND}
 C {devices/gnd.sym} -550 470 0 0 {name=l4 lab=GND}

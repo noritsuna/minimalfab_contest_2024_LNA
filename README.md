@@ -24,7 +24,16 @@ Fifty-Niftyは基本的には「2つのMOSFET」しか使わないため、初�
 * [Chipathonエントリーシート](docs/chipathon2024_entry.pdf)
 
 
-## 提出用ファイル
+## 設計目標とテストベンチ内容
+### Gain
+* 目標は「10dB」であったが構造的に3dBが限界値であった
+* ![Gain](images/TB_graph_gain.png)
+
+### NF(Noise Figure)
+* 目標は「3dB」であり、大体目標通りであるがゲインが「3dB」のためほぼ増幅は厳しい形となった
+* ![NF](images/TB_graph_NF.png)
+
+### 参考：Chipathoに提出したファイル
 * [xschemファイル](LNA/lna.sch)
 * [テストベンチファイル](LNA/lna_tb.sch)
 * [GDSファイル](LNA/lna.gds)
@@ -32,20 +41,21 @@ Fifty-Niftyは基本的には「2つのMOSFET」しか使わないため、初�
 * [各種ファイル保存ディレクトリ](LNA/)
 
 
-### 提出用ファイル画像
-#### 回路図(xschem)
+## コンテスト提出用ファイル画像
+### 回路図(xschem)
 * ![回路図](images/xschem.png)
 * ![テストベンチとグラフ](images/TB_full.png)
-* ![出力したグラフ](images/TB_graph.png)
+* ![出力したゲイングラフ](images/TB_graph_gain.png)
+* ![出力したNFグラフ](images/TB_graph_NF.png)
 * ![テストベンチ用回路](images/TB_xschem.png)
 
-#### レイアウト(klayout)
+### レイアウト(klayout)
 * ![レイアウトファイル](images/klayout.png)
 * ![DRC_OK](images/DRC_OK.png)
 * ![LVS_OK](images/LVS_OK.png)
 
 
-### トラブル
+## トラブル
 実は、一部トラブルが出ているため、報告する。  
 最初に、LVSをしたらNGでた。  
 * ![LVS_NG](images/LVS_NG.png)
