@@ -59,3 +59,5 @@ Harald先生とMatthias先生により提唱された、2つのMOSFETで作成�
 
 この状態で、LVSがOKになった。
 * ![LVS_OK](images/LVS_OK.png)
+
+そのため、LVS用の[回路図](LNA/lna_lvs.sch)と[レイアウト](LNA/lna_lvs.gds)、提出用の[回路図](LNA/lna.sch)と[レイアウト](LNA/lna.gds)として保存してある。
