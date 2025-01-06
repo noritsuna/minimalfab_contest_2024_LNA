@@ -1,0 +1,5 @@
+---
+target: lna
+reference: lvs_work/lna_reference.cir.txt
+netlist: "/home/noritsuna/LNA/simulation/lna.spice"
+schematic: "/home/noritsuna/LNA/simulation/lna.spice"

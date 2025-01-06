@@ -1,0 +1,66 @@
+** sch_path: /home/noritsuna/LNA/lna_lvs.sch
+.subckt lna_lvs vbias2 ibias VDD Vin VSS vbias1 vout Vin_dummy
+*.PININFO vbias2:B ibias:B VDD:B Vin:B VSS:B vbias1:B vout:B Vin_dummy:B
+x1 mosfets
+x3 resisters
+R1 vbias2 net2 28.8k m=1
+C1 Vin_dummy net2 3.312p m=1
+C2 Vin net1 3.312p m=1
+M1 VDD net2 vout VSS nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M2 vout vbias1 net1 VSS nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M3 net1 ibias VSS VSS nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M4 ibias ibias VSS VSS nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+.ends
+
+* expanding   symbol:  mosfets.sym # of pins=0
+** sym_path: /home/noritsuna/LNA/mosfets.sym
+** sch_path: /home/noritsuna/LNA/mosfets.sch
+.subckt mosfets
+
+M5 net1 net2 net3 net4 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M6 net5 net6 net7 net8 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M7 net9 net10 net11 net12 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M8 net13 net14 net15 net16 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M9 net17 net18 net19 net20 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M10 net21 net22 net23 net24 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M11 net25 net26 net27 net28 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M12 net29 net30 net31 net32 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M13 net33 net34 net35 net36 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M14 net37 net38 net39 net40 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M29 net41 net42 net43 net44 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+M30 net45 net46 net47 net48 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
+.ends
+
+
+* expanding   symbol:  resisters.sym # of pins=0
+** sym_path: /home/noritsuna/LNA/resisters.sym
+** sch_path: /home/noritsuna/LNA/resisters.sch
+.subckt resisters
+
+R41 net1 net2 3.6k m=1
+R42 net3 net4 3.6k m=1
+R43 net5 net6 3.6k m=1
+R44 net7 net8 3.6k m=1
+R45 net9 net10 3.6k m=1
+R46 net11 net12 3.6k m=1
+R47 net13 net14 3.6k m=1
+R48 net15 net16 3.6k m=1
+R49 net17 net18 3.6k m=1
+R50 net19 net20 3.6k m=1
+R51 net21 net22 3.6k m=1
+R52 net23 net24 3.6k m=1
+R53 net25 net26 3.6k m=1
+R54 net27 net28 3.6k m=1
+R55 net29 net30 3.6k m=1
+R56 net31 net32 3.6k m=1
+R57 net33 net34 3.6k m=1
+R58 net35 net36 3.6k m=1
+R59 net37 net38 3.6k m=1
+R60 net39 net40 3.6k m=1
+R61 net41 net42 3.6k m=1
+R62 net43 net44 3.6k m=1
+R63 net45 net46 3.6k m=1
+R64 net47 net48 3.6k m=1
+.ends
+
+.end
