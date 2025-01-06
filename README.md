@@ -17,12 +17,6 @@ Harald先生とMatthias先生により提唱された、2つのMOSFETで作成�
 ### 投稿意義
 Fifty-Niftyは基本的には「2つのMOSFET」しか使わないため、初心者でもお手軽に参戦できる。このFifty-Nifty系投稿が今後の***ミニマルファブコンテスト第一部の初心者向け定番***としての先鞭となれば幸いである。  
 
-* ![Fifty-Nifty_LNA](images/fifty-nifty_LNA.png)
-* ![Chipathonタイトル](images/chipathon_title.PNG)
-* ![Chipathon回路](images/chipathon_design.PNG)
-* ![Chipathonシミュレーション結果](images/chipathon_sim.PNG)
-* [Chipathonエントリーシート](docs/chipathon2024_entry.pdf)
-
 
 ## 設計目標とテストベンチ内容
 ### Gain
@@ -33,7 +27,15 @@ Fifty-Niftyは基本的には「2つのMOSFET」しか使わないため、初�
 * 目標は「3dB」であり、大体目標通りであるがゲインが「3dB」のためほぼ増幅は厳しい形となった
 * ![NF](images/TB_graph_NF.png)
 
-### 参考：Chipathoに提出したファイル
+#### 参考：Chipathoに提出した設計
+* ![Fifty-Nifty_LNA](images/fifty-nifty_LNA.png)
+* ![Chipathonタイトル](images/chipathon_title.PNG)
+* ![Chipathon回路](images/chipathon_design.PNG)
+* ![Chipathonシミュレーション結果](images/chipathon_sim.PNG)
+* [Chipathonエントリーシート](docs/chipathon2024_entry.pdf)
+
+
+## コンテスト提出用ファイル
 * [xschemファイル](LNA/lna.sch)
 * [テストベンチファイル](LNA/lna_tb.sch)
 * [GDSファイル](LNA/lna.gds)
