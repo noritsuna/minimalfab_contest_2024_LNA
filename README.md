@@ -76,3 +76,10 @@ Fifty-Niftyは基本的には「2つのMOSFET」しか使わないため、初�
 * ![LVS_OK](images/LVS_OK.png)
 
 そのため、LVS用の[回路図](LNA/lna_lvs.sch)と[レイアウト](LNA/lna_lvs.gds)、提出用の[回路図](LNA/lna.sch)と[レイアウト](LNA/lna.gds)として保存してある。
+
+
+## 結果
+「キャパシタを全部使ったで賞」を受賞しました！  
+すなわち、製造されることになりました。製造を楽しみに待ちたいと思います。  
+
+- ![結果](images/result.png)
